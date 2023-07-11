@@ -130,8 +130,9 @@ font-family: 'Lato', sans-serif;
     margin-top: 100px;
 }
 .feat_header h2{
-    font-size: 25px;
+    font-size: 33px;
     font-weight: 800;
+    font-family: lato;
 }
 
 /* deal section start */
@@ -170,7 +171,7 @@ font-family: 'Lato', sans-serif;
     width: 245px;
     height: 314px;
     
-    margin: 60px 382px 3px -23px;
+    margin: 52px 382px 50px -23px;
 }
 .deal_title a{
     border-radius: 8px;
@@ -246,6 +247,88 @@ padding: 1px 416px 14px 426px;
     position: relative;
     align-items: center;
     text-align: center;
-    justify-content: center
+    justify-content: center;
+    
+    padding: 83px 84px 25px 25px;
   }
 
+.input_banner img{
+    width: 1100px;
+    height: 323px;
+    padding: 13px 195px 71px 195px;
+}
+
+.input_title h2{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 35px;
+
+font-weight: 800;
+
+}
+.input_title p{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-weight: 400;
+margin: -17px 0px 19px 1px;
+}
+.input_submit form input[type=email] {
+    padding: 11px 0px 11px 20px;
+    margin: -5px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: white;
+  }
+
+  .input_submit form input::placeholder {
+    color: rgba(39, 39, 39, 0.60);
+   
+}
+.input_submit form input[type=submit] {
+    padding: 11px;
+    border-radius: 8px;
+    color: whitesmoke;
+    background-color: #E55473;
+    border: #E55473;
+}
+
+#input_section{
+    margin-top: 110px;
+}
+
+/*input section end */
+
+/* footer */
+
+.footer_container{
+    background-color: black;
+    margin-top: 150px;
+    background-size: cover ;
+    align-items: center;
+}
+.footer_containt{
+    align-items: center;
+    text-align: center;
+    padding: 62px 72px 185px 58px;
+}
+.footer_containt h1{
+font-family: Lato;
+font-size: 48px;
+font-weight: 800;
+color: aliceblue;
+}
+.footer_containt h1 span{
+    color: #E55473;
+}
+
+.footer_containt p{
+
+    color: rgba(255, 255, 255, 0.90);
+}
+.footer_containt .footer_q{
+    color: rgba(255, 255, 255, 0.40);
+
+}
